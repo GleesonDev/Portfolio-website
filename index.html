@@ -1,163 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Polyuih | Pixel Animator for Hire</title>
-  <meta name="description" content="Hire a professional Roblox animator! Specializing in R6, R15 animations, and game development. High-quality animations at competitive prices.">
-  <meta name="keywords" content="roblox animator for hire, roblox animations, roblox animation services, r6 animations, r15 animations, moon animator, blender animations">
-  <meta name="author" content="Polyuih">
-  <meta property="og:title" content="Polyuih | Professional Roblox Animator for Hire">
-  <meta property="og:description" content="Hire a professional Roblox animator specializing in R6, R15 animations and game development.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://polyuih.com">
-  <link rel="canonical" href="https://polyuih.com">
-  <link rel="icon" href="Public/favicon.ico" type="">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polyuih | Medieval Animator</title>
+  <meta name="description" content="Professional Roblox animator specializing in medieval-themed animations">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Press+Start+2P&display=swap">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="cursor"></div>
-  <div class="cursor-follower"></div>
-    
-  <!-- Scroll Pull Panels -->
-  <div class="scroll-pull-container">
-    <div class="pull-panel panel-1"></div>
-    <div class="pull-panel panel-2"></div>
-  </div>
-
-  <div class="intro-overlay">
-    <div class="intro-content">
-      <div class="pixel-sign">
-        <h1>Welcome</h1>
-        <p>Scroll to explore</p>
-        <p>Made custom by Polyuih</p>
-      </div>
-      <div class="scroll-arrow">↓</div>
-    </div>
-  </div>
-
+  <!-- Animated Background Elements -->
+  <div class="pixel-clouds"></div>
+  <div class="pixel-castle"></div>
+  
   <!-- Sidebar Navigation -->
-  <aside class="sidebar pixel-border">
-    <button class="sidebar-toggle">
-      <span class="menu-icon">☰</span>
-      <span class="close-icon">✕</span>
-    </button>
-    <div class="sidebar-content">
-      <h1><span>P</span><span>o</span><span>l</span><span>y</span><span>u</span><span>i</span><span>h</span></h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#about" class="pixel-link">About</a></li>
-          <li><a href="#skills" class="pixel-link">Skills</a></li>
-          <li><a href="#free-assets" class="pixel-link">Free Assets</a></li>
-          <li><a href="#portfolio" class="pixel-link">Portfolio</a></li>
-          <li><a href="#pricing" class="pixel-link">Pricing</a></li>
-          <li><a href="#contact" class="pixel-link">Contact</a></li>
-        </ul>
-      </nav>
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <h1>Polyuih</h1>
+      <div class="sidebar-level">
+        <span>Level 5 Animator</span>
+        <div class="level-bar">
+          <div class="level-progress" style="width: 65%"></div>
+        </div>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="quest-tracker">
+        <h3>Current Quest</h3>
+        <p>Complete 3 animations</p>
+        <div class="quest-progress">
+          <div class="progress" style="width: 33%"></div>
+        </div>
+      </div>
     </div>
   </aside>
 
+  <!-- Main Content -->
   <main>
-    <section id="hero" class="hero">
-      <div class="hero-content">
-        <div class="pixel-border">
-          <h1>Hello, I'm Polyuih!</h1>
-          <p class="pronunciation">(Pronounced: pawl - ee - you)</p>
-          <p class="tagline">Professional Animator</p>
-          <p>Specializing in R6 & R15 Roblox animations with over 3 years experience. Open to commissions!</p>
+    <button class="sidebar-toggle">☰</button>
+    
+    <section id="hero" class="fade-in">
+      <div class="hero-content pixel-card">
+        <h1><span class="letter-animate">Polyuih</span></h1>
+        <p class="subtitle">Medieval Animation Specialist</p>
+        <p>Bringing your Roblox visions to life with authentic dark ages motion</p>
+        <button class="cta-button">Begin Quest</button>
+      </div>
+      <div class="scroll-hint">
+        <span>Scroll Down</span>
+        <div class="arrow"></div>
+      </div>
+    </section>
+
+    <section id="about" class="fade-in">
+      <h2>About the Artisan</h2>
+      <div class="pixel-card">
+        <p>For 3 years I've honed my craft in the ancient art of Roblox animation, specializing in medieval and fantasy movements.</p>
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-number" data-count="150">0</span>
+            <span class="stat-label">Animations Created</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-count="42">0</span>
+            <span class="stat-label">Satisfied Lords</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-count="5">0</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="about">
-      <h2>About Me</h2>
-      <div class="pixel-border about-content">
-        <p>I'm a professional Animator specializing in creating fluid, high-quality animations for R6 and R15 characters.</p>
-        <p>Based in the United Kingdom (GMT+1).</p>
-        <p>I believe in creating animations that bring real personality to your Roblox games!</p>
-      </div>
-    </section>
-
-    <section id="skills">
-      <h2>My Animation & Software Skills</h2>
+    <section id="skills" class="fade-in">
+      <h2>Tools of the Trade</h2>
       <div class="skills-grid">
-        <div class="skill-card pixel-border">
-          <img src="Public/Roblox_Studio.svg" alt="Roblox Studio">
-          <h3>Roblox Studio</h3>
-          <p>5+ years experience creating animations in Roblox Studio</p>
-        </div>
-        
-        <div class="skill-card pixel-border">
-          <img src="Public/Moon_Animator_Two.svg" alt="Moon Animator 2">
-          <h3>Moon Animator</h3>
-          <p>Proficient since 2022; specialized in R6 animations</p>
-        </div>
-        
-        <div class="skill-card pixel-border">
-          <img src="Public/Blender.svg" alt="Blender">
+        <div class="skill pixel-card">
+          <img src="icons/blender.png" alt="Blender">
           <h3>Blender</h3>
-          <p>Custom 3D animations and rigs for Roblox</p>
+          <p>Custom rigs and fluid motions</p>
+          <div class="skill-level">
+            <div class="level" style="width: 80%"></div>
+          </div>
         </div>
+        <!-- More skills... -->
       </div>
     </section>
 
-    <section id="portfolio">
-      <h2>My Roblox Animation Portfolio</h2>
+    <section id="portfolio" class="fade-in">
+      <h2>Tapestry of Works</h2>
       <div class="portfolio-grid">
-        <div class="project-card pixel-border">
-          <h3>Royal Marines (21K+ Members)</h3>
-          <video controls poster="Public/thumbnail.jpg">
-            <source src="Public/royal_marines.mp4" type="video/mp4">
-          </video>
-          <p>Created custom helicopter cutscene animations</p>
+        <div class="portfolio-item pixel-card">
+          <video src="portfolio/royal-marines.mp4" poster="portfolio/royal-poster.jpg" loop muted></video>
+          <h3>Royal Marines</h3>
+          <button class="view-button">View Scroll</button>
         </div>
-        <div class="project-card pixel-border">
-          <h3>Custom Weapon Animations</h3>
-          <video controls>
-            <source src="Public/weapons.mp4" type="video/mp4">
-          </video>
-          <p>Viewmodel animations for 20+ weapons</p>
-        </div>
+        <!-- More portfolio items... -->
       </div>
     </section>
 
-    <section id="pricing">
-      <h2>Roblox Animation Pricing</h2>
-      <div class="pixel-border">
-        <div class="pricing-category">
-          <h3>Roblox R6 Animations</h3>
-          <ul class="price-list">
-            <li><span class="price">500 Robux</span> per Animation</li>
-            <li><span class="price">1000 Robux</span> Weapon Animations</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2>Hire a Roblox Animator Today!</h2>
-      <div class="contact-buttons pixel-border">
-        <a href="https://www.roblox.com/users/1405232056" class="pixel-button" target="_blank">
-          <img src="Public/roblox_icon.png" alt="Roblox">
-          <span>Contact on Roblox</span>
-        </a>
-        <a href="https://discord.com/users/1250899463942438954" class="pixel-button" target="_blank">
-          <img src="Public/discord_icon.png" alt="Discord">
-          <span>Contact on Discord</span>
-        </a>
-      </div>
+    <section id="contact" class="fade-in">
+      <h2>Send a Raven</h2>
+      <form class="pixel-card">
+        <!-- Form elements... -->
+      </form>
     </section>
   </main>
 
-<footer class="pixel-border">
-  <p>© 2025 Polyuih | Professional Animator for Hire</p>
-  <div class="pixel-counter">
-    <span>Visitors:</span>
-    <span id="viewCount">0000</span>
-  </div>
-</footer>
+  <footer class="pixel-card">
+    <p>© 2023 Polyuih - Animation Artisan</p>
+    <div class="view-counter">
+      <span>Visitors:</span>
+      <span id="viewCount">0000</span>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
